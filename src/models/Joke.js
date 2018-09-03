@@ -3,10 +3,10 @@ module.exports = class Joke {
     this.name = name;
     this.type = "dad joke";
     this.rating = 100;
-    this.description = ""
+    this.description = "";
   }
 
   isDadJoke() {
-    return (this.rating <= 100 ?  false :  true);
+    return this.rating <= 100 ? false : true;
   }
-}
+};
