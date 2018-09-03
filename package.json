@@ -4,7 +4,7 @@
   "description": "",
   "main": "test.js",
   "scripts": {
-    "test": "mocha \"__tests__/**/*.test.js\"",
+    "test": "mocha \"__tests__/**/*.test.js\" --reporter mocha-teamcity-reporter",
     "start": "node src/app.js"
   },
   "author": "",
@@ -13,6 +13,7 @@
     "chai": "^4.1.2",
     "express": "^4.16.3",
     "mocha": "^5.2.0",
+    "mocha-teamcity-reporter": "^2.4.0",
     "supertest": "^3.1.0"
   }
 }
