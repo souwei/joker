@@ -15,6 +15,27 @@ This is a sample project which consists of a web server to tell jokes to users. 
 2. Run `npm run start`. to start server
 3. Open a web browser and go to `localhost:3000`.
 
-# RUNNING THE TESTS
+## RUNNING THE TESTS
 
 `npm run test` or `./node_modules/mocha/bin/mocha "__tests__/**/*.test.js"` 
+
+
+## WORKSHOP AGENDA
+### CI :rocket:
+1. **Project Setup** - Fork this repo, clone the project, install and run test, quick demo of app.
+
+2. **Team City Installation and Setup project** - Installing team city server and agent, create project and linking your repo.
+
+3. **Team City Build Settings & Pipeline** - Setup Build steps, manually trigger build, or make changes and push to observe change.
+
+4. **Configuring Team City Reporting** - Install Reporter and run with reporter.
+
+5. **Additional Settings** - Failure conditions, other well known settings etc.
+6. **Setup your own project with team city!** :trophy:
+
+### CD :boom: :boom: :rocket:
+1. **Terraform Installation**
+2. **Terraform Configuration**
+3. **Running Terraform**
+4. **Adding Terraform to CI/CD Pipeline in TeamCity**
+5. **Complete your CI/CD Pipeline !** :beer:
